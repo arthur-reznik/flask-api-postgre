@@ -1,0 +1,6 @@
+flask db init ---create migrations config/folder
+
+flask db migrate ---check for changes
+flask db upgrade ---apply changes
+
+flask db downgrade ---rollback
